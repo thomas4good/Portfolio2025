@@ -1,0 +1,86 @@
+body {
+    background-color: #121212;
+    color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+
+    /* Projects */
+  .project-card {
+    background-color: #1a1a1a;
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  .project-thumbnail {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+    color: #f0f0f0;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    color: #bbbbbb;
+    margin-top: 5px;
+  }
+  .project-thumbnail {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 2px solid #333;
+  }
+
+    /* Modals */
+  .modal-content {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+  }
+  .modal-header, .modal-footer {
+    border: none;
+  }
+
+  /* Text */
+  .highlight-text {
+    color: #ffaa00; 
+    font-weight: bold; 
+  }
+
+
+    /* Profile */
+  .profile-image {
+    width: 300px; /* Size of the image */
+    border-radius: 20px; /* Boxier corners instead of fully circular */
+    border: 3px solid #ffaa00; /* Optional: Add a border for better framing */
+  }
+
+h1 {
+    font-size: 2.5rem; 
+    color: #ffffff; 
+  }
+  
+  h2 {
+    font-size: 1.5rem; 
+    color: #ffaa00; 
+  }
+
+  /* Navbar */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #f0f0f0;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffaa00; /* Highlight on hover */
+  }
+  

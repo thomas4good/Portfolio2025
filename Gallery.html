@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Genuary 2025 Projects</title>
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <!-- Navigation Bar -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Jack Rasmussen</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <!-- Projects Dropdown -->
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="projectsDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Projects
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="projectsDropdown">
+            <li>
+              <a class="dropdown-item" href="#projects">Professional Projects</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="gallery.html">Genuary 2025</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="files\JackRasmussen_RESUME.pdff" download="Jack_Rasmussen_Resume.pdf">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://x.com/JackRadmussen" target="_blank">X</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/jackras/" target="_blank">LinkedIn</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Main Content -->
+  <div class="container py-5">
+    <h1 class="text-center">Genuary 2025 Projects</h1>
+    <p class="text-center">30 days of creative coding — Explore the results!</p>
+    <div class="row g-4">
+      <!-- Project Cards -->
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card project-card" data-bs-toggle="modal" data-bs-target="#modalDay1">
+          <img src="Images/breathigncity.gif" class="project-thumbnail" alt="Breathing City">
+          <div class="card-body">
+            <h5 class="card-title">Breathing City</h5>
+            <p class="card-text">Day 1 - Vertical or horizontal lines only</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card project-card" data-bs-toggle="modal" data-bs-target="#modalDay2">
+          <img src="Images/paintballs.gif" class="project-thumbnail" alt="Paintballs">
+          <div class="card-body">
+            <h5 class="card-title">Paintballs</h5>
+            <p class="card-text">Day 2 - Layers upon layers upon layers</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card project-card" data-bs-toggle="modal" data-bs-target="#modalDay3">
+          <img src="Images/conway.gif" class="project-thumbnail" alt="Conway’s Game of Life">
+          <div class="card-body">
+            <h5 class="card-title">Conway’s Game of Life</h5>
+            <p class="card-text">Day 3 - Exactly 42 Lines of Code</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card project-card" data-bs-toggle="modal" data-bs-target="#modalDay4">
+          <img src="Images/midnighteclipse.gif" class="project-thumbnail" alt="Midnight Eclipse">
+          <div class="card-body">
+            <h5 class="card-title">Midnight Eclipse</h5>
+            <p class="card-text">Day 4 - Black on Black</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Modals -->
+    <!-- Modal for Day 1 -->
+    <div class="modal fade" id="modalDay1" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Breathing City</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="Images/breathigncity.gif" class="img-fluid mb-3" alt="Breathing City">
+            <p><strong>Day 1 - Vertical or horizontal lines only</strong></p>
+            <p>An animated cityscape with buildings expand and contract. I think this resembles a breathing city, or the common phrase "the city never sleeps".</p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://github.com/thomas4good/Genuary2025/blob/master/Genurary1_BreathingCity/sketch.js" class="btn btn-secondary" target="_blank">View Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Modal for Day 2 -->
+    <div class="modal fade" id="modalDay2" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Paintballs</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="Images/paintballs.gif" class="img-fluid mb-3" alt="Paintballs">
+            <p><strong>Day 2 - Layers upon layers upon layers</strong></p>
+            <p>This piece was just fun to make. It doesn't represent anything but I like the way it turned out. Simple shapes deforming layerd over top of eachother.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://github.com/thomas4good/Genuary2025/blob/master/Genuary2_Paintballs/sketch.js" class="btn btn-secondary" target="_blank">View Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Modal for Day 3 -->
+    <div class="modal fade" id="modalDay3" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Conway’s Game of Life</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="Images/conway.gif" class="img-fluid mb-3" alt="Conway’s Game of Life">
+            <p><strong>Day 3 - Exactly 42 Lines of Code</strong></p>
+            <p>I've always loved Conway's Game Of Life, and decided a simplified version would be perfect for this. However, I could only get it down to about 55 lines
+              and had to enlist the help of ChatGPT to shorten it further. I don't think that counts as cheating.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://github.com/thomas4good/Genuary2025/blob/master/Genuary3_Conway/sketch.js" class="btn btn-secondary" target="_blank">View Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Modal for Day 4 -->
+    <div class="modal fade" id="modalDay4" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Midnight Eclipse</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="Images/midnighteclipse.gif" class="img-fluid mb-3" alt="Midnight Eclipse">
+            <p><strong>Day 4 - Black on Black</strong></p>
+            <p>This one was another simple one and kind of just game together as I messed around. It reminds me of an old Samurai banner.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://github.com/thomas4good/Genuary2025/blob/master/Genary4_MidnightEclipse/sketch.js" class="btn btn-secondary" target="_blank">View Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+  ></script>
+</body>
+</html>

@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jack Rasmussen - Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Jack Rasmussen</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <!-- Projects Dropdown -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="projectsDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Projects
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="projectsDropdown">
+              <li>
+                <a class="dropdown-item" href="#projects">Professional Projects</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="gallery.html">Genuary 2025</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="files\JackRasmussen_RESUME.pdf" download="Jack_Rasmussen_Resume.pdf">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://x.com/JackRadmussen" target="_blank">X</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/jackras/" target="_blank">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="container text-center py-5">
+    <img src="Images/jack.jpg" alt="Jack Rasmussen" class="img-fluid profile-image mb-3">
+    <h1 class="display-4 fw-bold">Jack Rasmussen</h1>
+    <h2 class="display-6 fw-bold">Game Designer</h2>
+    <p class="mt-4 lead">
+        Hi, I'm Jack Rasmussen. I'm a game designer who loves working with teams to bring ideas to life. I focus on 
+        <span class="highlight-text">Unity</span> and 
+        <span class="highlight-text">Unreal Engine</span>, specializing in 
+        <span class="highlight-text">Multiplayer Experiences</span>, 
+        <span class="highlight-text">System Design</span>, and 
+        <span class="highlight-text">Live Service </span>design. My passion is creating games that connect with players, 
+        whether they're exploring solo adventures or teaming up with friends.
+      </p>
+  </header>
+
+<!-- Professional Projects Section -->
+<section id="projects" class="container py-5">
+    <h1 class="text-center mb-4">Professional Projects</h1>
+    <div class="row g-4">
+      <!-- Project 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card project-card" data-bs-toggle="modal" data-bs-target="#projectModal5">
+          <img src="Images\unannounced2.png" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Unannounced Project</h5>
+            <p class="card-text">Lead Game Designer.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card project-card" data-bs-toggle="modal" data-bs-target="#projectModal4">
+          <img src="Images\unnanounced1.png" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Unannounced Project</h5>
+            <p class="card-text">Game Designer.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Project 3 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card project-card" data-bs-toggle="modal" data-bs-target="#projectModal3">
+          <img src="Images\uli.jpg" class="card-img-top" alt="Project 3">
+          <div class="card-body">
+            <h5 class="card-title">Underlab</h5>
+            <p class="card-text">Game Designer.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Project 4 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card project-card" data-bs-toggle="modal" data-bs-target="#projectModal2">
+          <img src="Images\TWDI.jpeg" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">The Walking Dead: Betrayal</h5>
+            <p class="card-text">Game Designer.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Project 5 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card project-card" data-bs-toggle="modal" data-bs-target="#projectModal1">
+          <img src="Images\pw_landscape_capsule.png" class="card-img-top" alt="Project 5">
+          <div class="card-body">
+            <h5 class="card-title">Project Winter</h5>
+            <p class="card-text">Game Designer / Lead Game Designer.</p>
+          </div>
+        </div>
+      </div>
+        <!-- Project 6 / Incubation -->
+    <div class="col-md-6 col-lg-4">
+        <div class="card project-card" data-bs-toggle="modal" data-bs-target="#projectModal6">
+          <img src="Images\incubation1.png" class="card-img-top" alt="Incubation Team">
+          <div class="card-body">
+            <h5 class="card-title">Incubation Team</h5>
+            <p class="card-text">Game Designer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modals -->
+  <!-- Modal for Project 1 -->
+  <div class="modal fade" id="projectModal1" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Project Winter</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- Embedded YouTube Video -->
+          <div class="ratio ratio-16x9 mb-3">
+            <iframe 
+              src="https://www.youtube.com/embed/9HaIsKy6KPc" 
+              title="Project Winter Video" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
+        <!-- Project Description -->
+        <p class="highlight-text"><strong >Community Manager / Game Designer / Lead Game Designer</strong></p>
+        The perfect game to back-stab your friends. Project Winter is an 8-person multiplayer game focusing on social 
+        deception and survival. Communication and teamwork are essential to the survivors' ultimate goal of escape.</p>
+        <p>I joined the Project Winter team shortly after its 1.0 launch, initially serving as a Community Manager.
+            Drawing on my deep understanding of the game and its community, I transitioned into a game design role and ultimately took over as 
+            a designer in 2021, and beooming the project's Lead Designer by the end of that year. In this capacity, 
+            I've crafted unique items, roles, character abilities, and core systems, 
+            all aimed at enhancing the game's social deception elements and providing a balanced, engaging experience for players.</p>
+        <p><strong>My Work:</strong></p>
+        <ul>
+        <li> Developed and refined core gameplay systems and social interaction mechanics</li>
+        <li> Designed and implemented new roles, character abilities, and items to add depth to gameplay strategy</li>
+        <li> Created diverse maps, each tailored to unique player experiences and strategies</li>
+        <li> Established monetization and economy models aligned with community needs</li>
+        <li> Led efforts to integrate new sandbox and social interaction features</li>
+        <li> Continuously balanced gameplay to ensure fair, competitive experiences across player skill levels</li>
+        </ul>
+    </div>
+    <!-- Links Section -->
+    <div class="modal-footer">
+        <a href="https://store.steampowered.com/app/774861/Project_Winter/" 
+           target="_blank" 
+           class="btn btn-primary">
+          Steam Store Page        </a>
+      </div>
+      </div>
+    </div>
+  </div>
+
+ <!-- Modal for Project 2 -->
+<div class="modal fade" id="projectModal2" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">The Walking Dead: Betrayal</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- Embedded YouTube Video -->
+          <div class="ratio ratio-16x9 mb-3">
+            <iframe 
+              src="https://www.youtube.com/embed/3wmr9tCbh-U" 
+              title="The Walking Dead: Betrayal Video" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
+          <!-- Project Description -->
+          <p class="highlight-text"><strong>Designer</strong></p>
+          <p>
+            I contributed to the foundational design direction for <strong>The Walking Dead: Betrayal</strong>, creating core design documents and pitch materials that secured project funding. Drawing on social deception elements, I adapted gameplay mechanics, roles, and character abilities to fit <strong>The Walking Dead</strong> universe, bringing a fresh take to survival-focused objectives and interactions. My contributions were concentrated on the initial design and prototyping phase before transitioning to another project.
+          </p>
+          <p><strong>My Work:</strong></p>
+          <ul>
+            <li>Established the initial design for <strong>The Walking Dead: Betrayal</strong></li>
+            <li>Monetization and economy design</li>
+            <li>Created pitch materials and design docs to secure funding</li>
+            <li>Developed early gameplay mechanics, roles, and abilities for <strong>The Walking Dead</strong> setting</li>
+            <li>Adapted social deception elements for a survival-driven, post-apocalyptic environment</li>
+          </ul>
+        </div>
+        <!-- Links Section -->
+        <div class="modal-footer">
+          <h5 class="mb-3">This game is no longer available for purchase.</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal for Project 3 -->
+<div class="modal fade" id="projectModal3" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Underlab</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- Embedded YouTube Video -->
+          <div class="ratio ratio-16x9 mb-3">
+            <iframe 
+              src="https://www.youtube.com/embed/wmZuq64MLDo" 
+              title="Underlab Video" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
+          <!-- Project Description -->
+          <p class="highlight-text"><strong>Designer</strong></p>
+          <p>
+            In <strong>Underlab</strong>, my primary focus was on designing engaging systems and features to enhance player experience. 
+            I contributed to the development of new gameplay elements, including weapons, items, and crafting systems, 
+            along with dynamic in-game economies, quests, and enemy encounters. In addition, I dedicated substantial time to balancing existing
+            systems, enhancing onboarding processes, and ultimately increasing player retention.
+          </p>
+          <p><strong>My Work:</strong></p>
+          <ul>
+            <li>Designed new weapons, items, and crafting systems to expand gameplay variety</li>
+            <li>Developed in-game economies and balanced resource systems for immersive progression</li>
+            <li>Created engaging quests and unique enemies to challenge players</li>
+            <li>Fine-tuned existing systems to improve onboarding and foster long-term player retention</li>
+          </ul>
+        </div>
+        <!-- Links Section -->
+        <div class="modal-footer">
+          <a href="https://store.steampowered.com/app/1867760/Underlab/" 
+             target="_blank" 
+             class="btn btn-primary">
+            Steam Store Page
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal for Project 4 -->
+<div class="modal fade" id="projectModal4" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Unannounced Project</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        <!-- Project Preview Image -->
+        <div class="mb-3 text-center">
+            <img src="Images\unnanounced1.png" alt="Unannounced Project" class="img-fluid rounded">
+          </div>
+          <!-- Project Description -->
+          <p class="highlight-text"><strong>Designer</strong></p>
+          <p>
+            For this unannounced title, I joined the team at its inception, working closely with another designer to lay the foundation for the 
+            game's core design and gameplay. I was instrumental in creating a casual and approachable social deception experience, 
+            crafting game mechanics and content that could appeal to a broad audience. With ongoing development, we continue to refine map variations,
+            balance weapons and items, and ensure the game remains an intuitive, engaging experience for players of all skill levels.
+          </p>
+          <p><strong>My Work:</strong></p>
+          <ul>
+            <li>Collaborated on core gameplay concepts and design direction from the project's start</li>
+            <li>Designed multiple map variants tailored to diverse gameplay experiences, with ongoing updates</li>
+            <li>Created and balanced a range of weapons and items, enhancing the game's strategy and depth</li>
+            <li>Continue to guide the game's direction towards a casual and welcoming approach to social deception gameplay</li>
+          </ul>
+        </div>
+        <!-- Links Section -->
+        <div class="modal-footer">
+          <a href="#" 
+             target="_blank" 
+             class="btn btn-primary disabled" 
+             aria-disabled="true">
+            Coming Soon
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal for Project 5 -->
+<div class="modal fade" id="projectModal5" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Unannounced Title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- Project Preview Image -->
+          <div class="mb-3 text-center">
+            <img src="Images\unannounced2.png" alt="Unannounced Title" class="img-fluid rounded">
+          </div>
+          <!-- Project Description -->
+          <p class="highlight-text"><strong>Lead Designer</strong></p>
+          <p>
+            As the Lead Designer and vision holder for this new cooperative game, I successfully pitched the project, 
+            securing essential development funding. I'm steering the team in establishing clear design documentation and a 
+            focused design direction to bring the concept to life. My role involves designing core systems and gameplay elements that 
+            define the experience, from weapons and items to enemies, map generation, and level structure.
+          </p>
+          <p><strong>My Work:</strong></p>
+          <ul>
+            <li>Successfully pitched and secured development funding</li>
+            <li>Designing core systems like character controller, weapons, items, and enemies</li>
+            <li>Created procedural map generation ruleset for dynamic levels</li>
+            <li>Built progression systems to enhance player engagement</li>
+            <li>Developed in-game economy design to support item progression and player choice</li>
+            <li>Established comprehensive design documentation to align and guide the team</li>
+          </ul>
+        </div>
+        <!-- Links Section -->
+        <div class="modal-footer">
+          <a href="#" 
+             target="_blank" 
+             class="btn btn-primary disabled" 
+             aria-disabled="true">
+            Coming Soon
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal for Incubation Team -->
+<div class="modal fade" id="projectModal6" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Incubation Team</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- Project Preview Image -->
+          <div class="mb-3 text-center">
+            <img src="Images\incubation1.png" alt="Incubation Team" class="img-fluid rounded">
+          </div>
+          <!-- Project Description -->
+          <p class="highlight-text"><strong>Game Designer - Other Ocean</strong></p>
+          <p>
+            As a key member of Other Ocean's “incubation team,” I collaborate with colleagues to conceptualize, prototype, and develop innovative game 
+            ideas. This role requires constant innovation—creating unique mechanics and refreshing genres to craft engaging and memorable gameplay 
+            experiences. For each promising concept, I work across disciplines to produce high-level design documents that define core systems, 
+            gameplay loops, and flow. So far, I've successfully transitioned three projects from incubation, including one that secured external 
+            funding.
+          </p>
+          <p><strong>My Work:</strong></p>
+          <ul>
+            <li>Develop high-level design documents to capture gameplay flow and key mechanics</li>
+            <li>Collaborate across disciplines to prototype and test game concepts</li>
+            <li>Successfully advanced three projects out of incubation, one securing external funding</li>
+          </ul>
+        </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+  ></script>
+</body>
+</html>
